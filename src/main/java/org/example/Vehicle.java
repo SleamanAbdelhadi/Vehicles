@@ -1,22 +1,9 @@
 package org.example;
 
 public class Vehicle {
-    protected String color;
     private int numberOfPassengers;
     private int cargoCapacity;
     private int fuelCapacity;
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        if (color.equals("red") || color.equals("yellow")) {
-            this.color = "Blue";
-        } else {
-            this.color = color;
-        }
-    }
 
     public int getNumberOfPassengers() {
         return numberOfPassengers;

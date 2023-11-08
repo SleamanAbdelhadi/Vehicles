@@ -1,8 +1,14 @@
 package org.example;
 
 public class Truck extends Vehicle {
-    public void setColor(String color) {
-        super.color = color;
+    public String getColor() {
+        return color;
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    private String color;
 
 }
